@@ -9,7 +9,7 @@ see https://docs.docker.com/compose/rails/
   $ docker-compose run web rake db:create
   $ docker-machine ip
 
-Browse to port 3000
+
 
 
 
