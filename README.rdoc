@@ -1,0 +1,19 @@
+== Docker Compose and Rails
+
+see https://docs.docker.com/compose/rails/
+
+```
+
+$ docker-compose run web rails new . --force --database=postgresql --skip-bundle
+$ sudo chown -R $USER:$USER .
+$ docker-compose build
+$ docker-compose up
+$ docker-compose run web rake db:create
+$ docker-machine ip
+
+```
+Browse to port 3000
+
+
+
+
